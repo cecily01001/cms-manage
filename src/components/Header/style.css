@@ -1,0 +1,19 @@
+header {
+  padding: 0 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.right {
+  justify-content: right;
+  height: 40px;
+}
+.right .avatar {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+.right span {
+  margin-left: 10px;
+  margin-right: 10px;
+}

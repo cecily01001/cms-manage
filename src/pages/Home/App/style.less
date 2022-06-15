@@ -1,0 +1,33 @@
+.ant-layout {
+    background-color: #f5f5f2;
+}
+
+footer {
+    height: 70px;
+    background: #a2b4c1;
+    color:#fff;
+    text-align: center;
+    line-height: 70px;
+}
+// #app{
+//     height: 100vh;
+// }
+.container{
+    display: flex;
+    height: 75.5vh;
+    .aside{
+        height: calc(100vh,-260px);
+        background-color: #a2b4c1;
+    }
+    .container_box{
+        flex: 1;
+        box-sizing: border-box;
+        padding: 10px 20px;
+        display: flex;
+        flex-direction: column;
+        .container_content{
+            height: calc(100vh,-210px);
+            overflow: hidden;
+        }
+    }
+}
