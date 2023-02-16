@@ -42,7 +42,9 @@ const Edit = (props) => {
           // 添加文章的请求
           api.addArticle({ title, subTitle, content }).then(res => {
             console.log(res)
+            props.history.push('/listlist')
           })
+          setIsModalVisible(false)
         }
 
       })
